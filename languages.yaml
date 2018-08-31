@@ -1,0 +1,10 @@
+en:
+  PLUGIN_SCSS_COMPILER:
+    CSS_DIR: 'CSS directory'
+    CSS_DIR_HELP: 'Enter relative path to theme'
+    CSS_FILE: 'CSS output file name'
+    CSS_FILE_HELP: 'Enter genereated CSS file name'
+    SCSS_DIR: 'SCSS directory'
+    SCSS_DIR_HELP: 'Enter relative path to theme'
+    SCSS_FILE: 'SCSS entry file name'
+    SCSS_FILE_HELP: 'Enter SCSS entry file name'

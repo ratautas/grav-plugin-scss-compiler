@@ -1,0 +1,5 @@
+enabled: true
+css_dir: 'css/'
+css_file: 'scss-compiled.css'
+scss_dir: 'scss/'
+scss_file: 'style.scss'

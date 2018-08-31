@@ -1,0 +1,43 @@
+name: Scss Compiler
+version: 0.1.0
+description: Compile SCSS files to CSS utilizing https://github.com/oyejorge/scss.php
+icon: plug
+author:
+  name: Algirdas Tamasauskas
+  email: algirdas.tamasauskas@gmail.com
+homepage: https://github.com/ratautas/grav-plugin-scss-compiler
+demo: http://demo.yoursite.com
+keywords: grav, plugin, etc
+bugs: https://github.com/ratautas/grav-plugin-scss-compiler/issues
+docs: https://github.com/ratautas/grav-plugin-scss-compiler/blob/develop/README.md
+license: MIT
+
+form:
+  validation: strict
+  fields:
+    enabled:
+      type: toggle
+      label: PLUGIN_ADMIN.PLUGIN_STATUS
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+    scss_dir:
+      type: text
+      label: PLUGIN_SCSS_COMPILER.SCSS_DIR
+      help: PLUGIN_SCSS_COMPILER.SCSS_DIR_HELP
+    scss_file:
+      type: text
+      label: PLUGIN_SCSS_COMPILER.SCSS_FILE
+      help: PLUGIN_SCSS_COMPILER.SCSS_FILE_HELP
+    css_dir:
+      type: text
+      label: PLUGIN_SCSS_COMPILER.CSS_DIR
+      help: PLUGIN_SCSS_COMPILER.CSS_DIR_HELP
+    css_file:
+      type: text
+      label: PLUGIN_SCSS_COMPILER.CSS_FILE
+      help: PLUGIN_SCSS_COMPILER.CSS_FILE_HELP
